@@ -1,0 +1,36 @@
+.clock{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+
+}
+    .clock > .time{
+        display:inline-block;
+        width:25%;
+        float:left;
+        margin:20px 0;
+
+    }
+        .clock > .time > .value{
+            display:inline-block;
+            width:100%;
+            font-size:64px;
+            line-height: 60px;
+            color:#fff;
+            font-weight:bold;
+
+        }
+        .clock > .time > .label{
+            display:inline-block;
+            width:100%;
+            color:#fff;
+            font-size:14px;
+            line-height:20px;
+            text-transform: uppercase;
+        }
+        @media(max-width:700px){
+            .clock > .time{
+                width:50%;
+            }
+
+        }
