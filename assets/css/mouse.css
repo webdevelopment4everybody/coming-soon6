@@ -1,0 +1,27 @@
+.mouse{
+    display:inline-block;
+    width:120px;
+    height:200px;
+    border:10px solid #fff;
+    border-radius:60px;
+}
+.mouse > .wheel{
+    display:inline-block;
+    width:10px;
+    height:30px;
+    background-color:#fff;
+    border-radius:5px;
+    margin-top: 30px;
+
+    animation: mouse 3s ease 0s infinite;
+}
+@keyframes mouse{
+    0{
+        margin-top: 30px;
+        opacity:1;
+    }
+    100%{
+        margin-top:100px;
+        opacity:0;
+    }
+}
