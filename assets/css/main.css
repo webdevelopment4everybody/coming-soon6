@@ -108,7 +108,7 @@
 }
 .hero-row > .mouse{
     display:inline-block;
-    width:100%;
+    /* width:100%; */
 }
 /* MAIN CONTENT */
 .content h2{
