@@ -131,4 +131,6 @@
     text-decoration: none;
 }
 
-/* CLOCK */
+.content form > .btn{
+    float:right;
+}
